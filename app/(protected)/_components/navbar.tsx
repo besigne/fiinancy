@@ -33,7 +33,7 @@ export const Navbar = () => {
           variant={pathname === "/transactions" ? "outline" : "ghost"}
         >
           <Link href="/transactions">
-            Transações
+            Mensal
           </Link>
         </Button>
         <Button
@@ -42,6 +42,22 @@ export const Navbar = () => {
         >
           <Link href="/goals">
             Objetivos
+          </Link>
+        </Button>
+        <Button
+          asChild
+          variant={pathname === "/income" ? "outline" : "ghost"}
+        >
+          <Link href="/income">
+            Ganhos
+          </Link>
+        </Button>
+        <Button
+          asChild
+          variant={pathname === "/expenses" ? "outline" : "ghost"}
+        >
+          <Link href="/expenses">
+            Despesas
           </Link>
         </Button>
         <Button

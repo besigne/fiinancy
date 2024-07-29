@@ -18,7 +18,7 @@ export const Header = ({
         "text-3xl font-semibold",
         font.className
         )}>
-          Financy
+          Fiinancy
         </h1>
         <p className={cn(
           "text-muted-foreground text-sm",

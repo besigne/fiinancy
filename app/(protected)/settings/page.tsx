@@ -41,6 +41,8 @@ import { FormSuccess } from "@/components/form-success";
 import { useCurrentUser } from "@/hooks/use-current-user";
 import { CurrencyEnum, LanguageEnum } from "@prisma/client";
 
+// TODO: Mudar essa tela, os ganhos/gastos vão ter suas próprias tabelas
+
 export default function Settings() {
   const user = useCurrentUser();
   const { update } = useSession();

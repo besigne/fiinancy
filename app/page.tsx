@@ -12,7 +12,7 @@ export default function Home() {
     <main className="flex h-full flex-col items-center justify-center bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-white to-gray-300">
       <div className="space-y-6 text-center">
         <h1 className={cn("text-6xl font-semibold text-gray-800 drop-shadow-md", font.className)}>
-          Financy
+          Fiinancy
         </h1>
         <p className={cn("text-lg text-gray-800", font.className)}>
           A simple way to manage your money.
