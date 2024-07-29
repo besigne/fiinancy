@@ -1,0 +1,15 @@
+services:
+  finances-db:
+    image: postgres
+    restart: unless-stopped
+    container_name: financy-db
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: math
+      PGDATA: /data/postgres
+    volumes:
+      - postgres:/data/postgres
+
+volumes:
+  postgres:

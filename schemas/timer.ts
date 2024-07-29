@@ -1,0 +1,1 @@
+export const FormMessagesTimeout = 2000;
